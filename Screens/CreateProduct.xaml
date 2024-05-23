@@ -1,0 +1,61 @@
+﻿<Window x:Class="orderApp.Screens.CreateProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:orderApp.Screens"
+        mc:Ignorable="d"
+        Title="CreateProduct" Height="450" Width="320">
+    <Window.Background>
+        <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
+            <GradientStop Color="LightCoral" Offset="0" />
+            <GradientStop Color="LightCoral" Offset="0.3"/>
+            <GradientStop Color="Blue" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="1" Content="Create new product" HorizontalAlignment="Center" VerticalAlignment="Center"
+               FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Button Grid.Column="1" Grid.Row="1" HorizontalAlignment="Right" 
+                VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Foreground="White" 
+                Click="Back_Click" Style="{StaticResource CustomButtonStyle}" Margin="0,0,10,0">
+            <Image Source="../Assets/return.png" Width="24" Height="24" Margin="4"/>
+        </Button>
+        <StackPanel Grid.Row="2" Orientation="Vertical" Margin="10">
+            <Label Content="Name" Foreground="White"/>
+            <TextBox x:Name="name" Margin="0,5,0,5"/>
+            <Label Content="Description" Foreground="White"/>
+            <TextBox x:Name="description" Margin="0,5,0,5"/>
+            <Label Content="Category" Foreground="White"/>
+            <TextBox x:Name="category" Margin="0,5,0,5"/>
+            <Label Content="Price" Foreground="White"/>
+            <TextBox x:Name="price" Margin="0,5,0,5"/>
+            <Label Content="Foodstuffs" Foreground="White"/>
+            <ScrollViewer VerticalScrollBarVisibility="Auto" Height="50">
+                <ListBox x:Name="foodstuffsListBox" Margin="0,5,0,5" SelectionMode="Multiple" 
+             ItemsSource="{Binding Foodstuffs}" ScrollViewer.VerticalScrollBarVisibility="Auto">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" VerticalAlignment="Center" />
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="Height" Value="30"/>
+                            <Setter Property="VerticalContentAlignment" Value="Center"/>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                </ListBox>
+            </ScrollViewer>
+        </StackPanel>
+        <Button Grid.Row="3" Content="Next" HorizontalAlignment="Center" VerticalAlignment="Center"
+                Click="NextWindow_Click" Width="100" Height="30" 
+                Style="{StaticResource CustomButtonStyle}"/>
+    </Grid>
+</Window>
