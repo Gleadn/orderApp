@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projet C#\\orderApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|d:\\projet c#\\orderapp\\screens\\orders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\orders.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|d:\\projet c#\\orderapp\\screens\\orders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\orders.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|d:\\projet c#\\orderapp\\screens\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|d:\\projet c#\\orderapp\\class\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:class\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|d:\\projet c#\\orderapp\\screens\\productlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\productlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\Projet C#\\orderApp\\Class\\Order.cs",
+              "RelativeDocumentMoniker": "Class\\Order.cs",
+              "ToolTip": "D:\\Projet C#\\orderApp\\Class\\Order.cs",
+              "RelativeToolTip": "Class\\Order.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T13:00:19.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductList.xaml.cs",
+              "DocumentMoniker": "D:\\Projet C#\\orderApp\\Screens\\ProductList.xaml.cs",
+              "RelativeDocumentMoniker": "Screens\\ProductList.xaml.cs",
+              "ToolTip": "D:\\Projet C#\\orderApp\\Screens\\ProductList.xaml.cs",
+              "RelativeToolTip": "Screens\\ProductList.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwDoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:20:58.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductList.xaml",
+              "DocumentMoniker": "D:\\Projet C#\\orderApp\\Screens\\ProductList.xaml",
+              "RelativeDocumentMoniker": "Screens\\ProductList.xaml",
+              "ToolTip": "D:\\Projet C#\\orderApp\\Screens\\ProductList.xaml",
+              "RelativeToolTip": "Screens\\ProductList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T12:20:51.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Orders.xaml.cs",
+              "DocumentMoniker": "D:\\Projet C#\\orderApp\\Screens\\Orders.xaml.cs",
+              "RelativeDocumentMoniker": "Screens\\Orders.xaml.cs",
+              "ToolTip": "D:\\Projet C#\\orderApp\\Screens\\Orders.xaml.cs",
+              "RelativeToolTip": "Screens\\Orders.xaml.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAADwv1kAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:15:45.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Orders.xaml",
+              "DocumentMoniker": "D:\\Projet C#\\orderApp\\Screens\\Orders.xaml",
+              "RelativeDocumentMoniker": "Screens\\Orders.xaml",
+              "ToolTip": "D:\\Projet C#\\orderApp\\Screens\\Orders.xaml",
+              "RelativeToolTip": "Screens\\Orders.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-23T12:15:30.551Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

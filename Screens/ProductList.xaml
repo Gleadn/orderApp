@@ -42,8 +42,8 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <Button Content="{Binding Name}" Command="{Binding NavigateToProductCommand}" Style="{StaticResource CustomButtonStyle}" 
-                                Margin="5" Height="30" Width="60"/>
+                        <Button Click="Button_Click" Content="{Binding Name}" Command="{Binding NavigateToProductCommand}" Style="{StaticResource CustomButtonStyle}" 
+                               Tag="{Binding Id}" Margin="5" Height="30" Width="100"/>
                         <!-- Remplacez "Name" par la propriété de votre produit contenant le nom -->
                         <!-- Assurez-vous d'avoir un command qui permet de naviguer vers la page du produit correspondant -->
                     </DataTemplate>

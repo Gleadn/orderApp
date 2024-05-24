@@ -58,6 +58,12 @@
     <Compile Include="Screens\CreateFoodstuff.xaml.cs">
       <DependentUpon>CreateFoodstuff.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screens\InfoProduct.xaml.cs">
+      <DependentUpon>InfoProduct.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Screens\InfoReceipe.xaml.cs">
+      <DependentUpon>InfoReceipe.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Screens\NewItems.xaml.cs">
       <DependentUpon>NewItems.xaml</DependentUpon>
     </Compile>
@@ -68,6 +74,14 @@
       <DependentUpon>ProductList.xaml</DependentUpon>
     </Compile>
     <Page Include="Screens\CreateFoodstuff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\InfoProduct.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\InfoReceipe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
