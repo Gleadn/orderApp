@@ -35,5 +35,12 @@ namespace orderApp.Screens
             newItems.Show();
             this.Close();
         }
+
+        public void Back_Click(object sender, RoutedEventArgs e)
+        {
+            NewItems newItems = new NewItems();
+            newItems.Show();
+            this.Close();
+        }
     }
 }

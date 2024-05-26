@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\TheQu\\source\\repos\\orderApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\createreceipe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createreceipe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|C:\\Users\\TheQu\\source\\repos\\orderApp\\screens\\createreceipe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createreceipe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\infoproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\infoproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|C:\\Users\\TheQu\\source\\repos\\orderApp\\screens\\createproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createproduct.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|C:\\Users\\TheQu\\source\\repos\\orderApp\\screens\\createproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\infoproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\infoproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|C:\\Users\\TheQu\\source\\repos\\orderApp\\screens\\createfoodstuff.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createfoodstuff.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\createreceipe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\createreceipe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\productlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\productlist.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|c:\\users\\thequ\\source\\repos\\orderapp\\screens\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CCFC3642-A33B-4A69-B357-57A6026FF3B9}|orderApp.csproj|solutionrelative:screens\\productlist.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,62 +42,79 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml.cs",
+              "RelativeDocumentMoniker": "Screens\\CreateProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml.cs",
+              "RelativeToolTip": "Screens\\CreateProduct.xaml.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAEwEoAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T12:09:12.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoProduct.xaml",
+              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\InfoProduct.xaml",
+              "RelativeDocumentMoniker": "Screens\\InfoProduct.xaml",
+              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\InfoProduct.xaml",
+              "RelativeToolTip": "Screens\\InfoProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T18:48:08.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "InfoProduct.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\InfoProduct.xaml.cs",
+              "RelativeDocumentMoniker": "Screens\\InfoProduct.xaml.cs",
+              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\InfoProduct.xaml.cs*",
+              "RelativeToolTip": "Screens\\InfoProduct.xaml.cs*",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAlwEsAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T18:48:14.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "CreateReceipe.xaml.cs",
               "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateReceipe.xaml.cs",
               "RelativeDocumentMoniker": "Screens\\CreateReceipe.xaml.cs",
               "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateReceipe.xaml.cs",
               "RelativeToolTip": "Screens\\CreateReceipe.xaml.cs",
-              "ViewState": "AQIAADgAAAAAAAAAAAAgwD4AAAA5AAAA",
+              "ViewState": "AQIAADgAAAAAAAAAAAAgwD4AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T14:47:29.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateReceipe.xaml",
-              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateReceipe.xaml",
-              "RelativeDocumentMoniker": "Screens\\CreateReceipe.xaml",
-              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateReceipe.xaml",
-              "RelativeToolTip": "Screens\\CreateReceipe.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-26T13:44:29.291Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateProduct.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml.cs",
-              "RelativeDocumentMoniker": "Screens\\CreateProduct.xaml.cs",
-              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml.cs",
-              "RelativeToolTip": "Screens\\CreateProduct.xaml.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAEwBcAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T12:09:12.364Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateProduct.xaml",
-              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml",
-              "RelativeDocumentMoniker": "Screens\\CreateProduct.xaml",
-              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateProduct.xaml",
-              "RelativeToolTip": "Screens\\CreateProduct.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-22T12:57:13.078Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "CreateFoodstuff.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateFoodstuff.xaml.cs",
-              "RelativeDocumentMoniker": "Screens\\CreateFoodstuff.xaml.cs",
-              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\CreateFoodstuff.xaml.cs",
-              "RelativeToolTip": "Screens\\CreateFoodstuff.xaml.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAQwC4AAABOAAAA",
+              "Title": "ProductList.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\ProductList.xaml.cs",
+              "RelativeDocumentMoniker": "Screens\\ProductList.xaml.cs",
+              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\ProductList.xaml.cs",
+              "RelativeToolTip": "Screens\\ProductList.xaml.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAkwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-23T12:09:38.563Z"
+              "WhenOpened": "2024-05-26T18:43:39.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductList.xaml",
+              "DocumentMoniker": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\ProductList.xaml",
+              "RelativeDocumentMoniker": "Screens\\ProductList.xaml",
+              "ToolTip": "C:\\Users\\TheQu\\source\\repos\\orderApp\\Screens\\ProductList.xaml",
+              "RelativeToolTip": "Screens\\ProductList.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T18:43:35.669Z",
+              "EditorCaption": ""
             }
           ]
         }

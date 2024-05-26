@@ -26,3 +26,5 @@ C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateProduct.g.cs
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateProduct.baml
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateReceipe.g.cs
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateReceipe.baml
+C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\InfoProduct.g.cs
+C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\InfoProduct.baml

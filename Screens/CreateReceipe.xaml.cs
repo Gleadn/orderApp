@@ -60,7 +60,7 @@ namespace orderApp.Screens
             {
                 if (item is TextBox)
                 {
-                    steps += (item as TextBox).Text + "; ";
+                    steps += (item as TextBox).Text + ";  ";
                 }
             }
 

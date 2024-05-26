@@ -25,7 +25,7 @@ namespace orderApp.Screens
 
         public ObservableCollection<string> Foodstuffs { get; set; }
 
-        public int ID = 1;
+        public int ID = 0;
         public CreateProduct()
         {
             InitializeComponent();
@@ -49,7 +49,17 @@ namespace orderApp.Screens
             {
                 connection.Open();
                 string query = "INSERT INTO product (Id, Name, Description, Category, Price, Foodstuff, ReceipeID) VALUES (@id, @name, @description, @category, @price, @foodstuff, @receipid)";
-
+                SqlCommand commandID = new SqlCommand("SELECT MAX(id) AS MaxId FROM product", connection);
+                using (SqlDataReader reader = commandID.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        while (reader.Read())
+                        {
+                            ID = reader.GetInt32(0) + 1;
+                        }
+                    }
+                }
                 if (validInput(productName, productDescription, productCategory, productPrice, foodstuffs))
                 {
                     using (SqlCommand command = new SqlCommand(query, connection))
@@ -63,12 +73,12 @@ namespace orderApp.Screens
                         command.Parameters.AddWithValue("@foodstuff", foodstuffs);
                         command.Parameters.AddWithValue("@receipid", ID);
                         command.ExecuteNonQuery();
-                        ID++;
                     }
                     connection.Close();
                     CreateReceipe createReceipe = new CreateReceipe(ID);
                     createReceipe.Show();
                     this.Close();
+                    
                 }
                 else
                 {

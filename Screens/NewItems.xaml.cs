@@ -33,7 +33,9 @@ namespace orderApp.Screens
 
         public void NewProduct_Click(object sender, RoutedEventArgs e)
         {
-            Console.WriteLine("New Product");
+            CreateProduct createProduct = new CreateProduct();
+            createProduct.Show();
+            this.Close();
         }
 
         public void NewFoodstuff_Click(object sender, RoutedEventArgs e)

@@ -64,6 +64,9 @@
     <Compile Include="Screens\CreateReceipe.xaml.cs">
       <DependentUpon>CreateReceipe.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screens\InfoProduct.xaml.cs">
+      <DependentUpon>InfoProduct.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Screens\NewItems.xaml.cs">
       <DependentUpon>NewItems.xaml</DependentUpon>
     </Compile>
@@ -82,6 +85,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Screens\CreateReceipe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\InfoProduct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
