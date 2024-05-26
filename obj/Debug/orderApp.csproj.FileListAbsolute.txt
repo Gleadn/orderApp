@@ -24,3 +24,5 @@ C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateFoodstuff.baml
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\NewItems.baml
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateProduct.g.cs
 C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateProduct.baml
+C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateReceipe.g.cs
+C:\Users\TheQu\source\repos\orderApp\obj\Debug\Screens\CreateReceipe.baml

@@ -24,6 +24,8 @@ namespace orderApp.Screens
         private string connectionString = "Server=.\\SQLEXPRESS;Database=orderAppBDD;Trusted_Connection=True;";
 
         public ObservableCollection<string> Foodstuffs { get; set; }
+
+        public int ID = 1;
         public CreateProduct()
         {
             InitializeComponent();
@@ -32,9 +34,56 @@ namespace orderApp.Screens
 
         public void NextWindow_Click(object sender, RoutedEventArgs e)
         {
-            var selectedItems = foodstuffsListBox.SelectedItems.Cast<string>().ToList();
-            MessageBox.Show("Selected items: " + string.Join(", ", selectedItems));
-            Console.WriteLine("NextWindow_Click");
+            string productName = name.Text;
+            string productDescription = description.Text;
+            string productCategory = category.Text;
+            string productPrice = price.Text;
+            List<string> selectedFoodstuffs = new List<string>();
+            foreach (var item in foodstuffsListBox.SelectedItems)
+            {
+                selectedFoodstuffs.Add(item.ToString());
+            }
+            string foodstuffs = string.Join(", ", selectedFoodstuffs);
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "INSERT INTO product (Id, Name, Description, Category, Price, Foodstuff, ReceipeID) VALUES (@id, @name, @description, @category, @price, @foodstuff, @receipid)";
+
+                if (validInput(productName, productDescription, productCategory, productPrice, foodstuffs))
+                {
+                    using (SqlCommand command = new SqlCommand(query, connection))
+                    {
+                        float floatPrice = float.Parse(productPrice);
+                        command.Parameters.AddWithValue("@id", ID);
+                        command.Parameters.AddWithValue("@name", productName);
+                        command.Parameters.AddWithValue("@description", productDescription);
+                        command.Parameters.AddWithValue("@category", productCategory);
+                        command.Parameters.AddWithValue("@price", productPrice);
+                        command.Parameters.AddWithValue("@foodstuff", foodstuffs);
+                        command.Parameters.AddWithValue("@receipid", ID);
+                        command.ExecuteNonQuery();
+                        ID++;
+                    }
+                    connection.Close();
+                    CreateReceipe createReceipe = new CreateReceipe(ID);
+                    createReceipe.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("A field might be empty or the value is wrong");
+                }
+            }
+        }
+
+        public bool validInput(string name, string description, string category, string price, string foodstuffs)
+        {
+            if (name == "" || description == "" || category == "" || price == "" || foodstuffs == "")
+            {
+                return false;
+            }
+            return true;
         }
 
         public void Back_Click(object sender, RoutedEventArgs e)

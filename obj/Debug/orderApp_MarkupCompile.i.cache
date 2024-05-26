@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\TheQu\source\repos\orderApp\App.xaml
-6-1429747792
+752691900
 
-17-1051656799
+18943199369
 13-1310406943
-Screens\CreateFoodstuff.xaml;Screens\CreateProduct.xaml;Screens\MainWindow.xaml;Screens\NewItems.xaml;Screens\Orders.xaml;Screens\ProductList.xaml;
+Screens\CreateFoodstuff.xaml;Screens\CreateProduct.xaml;Screens\CreateReceipe.xaml;Screens\MainWindow.xaml;Screens\NewItems.xaml;Screens\Orders.xaml;Screens\ProductList.xaml;
 
-False
+True
 
