@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:orderApp.Screens"
         mc:Ignorable="d"
-        Title="ProductList" Height="450" Width="320">
+        Title="ProductList" Height="650" Width="520">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
             <GradientStop Color="LightCoral" Offset="0" />

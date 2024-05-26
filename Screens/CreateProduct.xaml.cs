@@ -56,7 +56,14 @@ namespace orderApp.Screens
                     {
                         while (reader.Read())
                         {
-                            ID = reader.GetInt32(0) + 1;
+                            if (!reader.IsDBNull(0))
+                            {
+                                ID = reader.GetInt32(0) + 1;
+                            }
+                            else
+                            {
+                                ID = 1;
+                            }
                         }
                     }
                 }
