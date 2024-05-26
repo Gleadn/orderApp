@@ -32,5 +32,8 @@
                 Click="Back_Click" Style="{StaticResource CustomButtonStyle}" Margin="0,0,10,0">
             <Image Source="../Assets/return.png" Width="24" Height="24" Margin="4"/>
         </Button>
+        <ScrollViewer Grid.Column="1" Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel x:Name="ItemsPanel" Margin="10"/>
+        </ScrollViewer>
     </Grid>
 </Window>
