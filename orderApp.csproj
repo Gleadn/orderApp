@@ -58,6 +58,9 @@
     <Compile Include="Screens\CreateFoodstuff.xaml.cs">
       <DependentUpon>CreateFoodstuff.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Screens\CreateProduct.xaml.cs">
+      <DependentUpon>CreateProduct.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Screens\NewItems.xaml.cs">
       <DependentUpon>NewItems.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,10 @@
       <DependentUpon>ProductList.xaml</DependentUpon>
     </Compile>
     <Page Include="Screens\CreateFoodstuff.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Screens\CreateProduct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -130,6 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Assets\return.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\plus.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
