@@ -28,30 +28,32 @@ namespace orderApp.Screens
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
                 connection.Open();
-                SqlCommand command = new SqlCommand("SELECT Id, Name, Price FROM orders", connection);
+                SqlCommand command = new SqlCommand("SELECT Id, Name, Price, Status FROM orders", connection);
 
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     if (reader.HasRows)
                     {
-                        var ordersDict = new Dictionary<int, List<string>>();
+                        var ordersDict = new Dictionary<int, (List<string> names, string status)>();
 
                         while (reader.Read())
                         {
                             int id = reader.GetInt32(0);
                             string name = reader.GetString(1);
+                            string status = reader.GetString(3);
 
                             if (!ordersDict.ContainsKey(id))
                             {
-                                ordersDict[id] = new List<string>();
+                                ordersDict[id] = (new List<string>(), status);
                             }
-                            ordersDict[id].Add(name);
+                            ordersDict[id].names.Add(name);
                         }
 
                         foreach (var kvp in ordersDict)
                         {
                             int id = kvp.Key;
-                            List<string> names = kvp.Value;
+                            List<string> names = kvp.Value.names;
+                            string currentStatus = kvp.Value.status;
 
                             StackPanel itemPanel = new StackPanel
                             {
@@ -64,6 +66,7 @@ namespace orderApp.Screens
                                 Content = $"ID: {id}",
                                 Width = 100,
                                 VerticalAlignment = VerticalAlignment.Center,
+                                HorizontalAlignment = HorizontalAlignment.Left,
                                 Foreground = System.Windows.Media.Brushes.White
                             };
                             itemPanel.Children.Add(label);
@@ -71,6 +74,7 @@ namespace orderApp.Screens
                             ComboBox comboBox = new ComboBox
                             {
                                 Width = 150,
+                                HorizontalAlignment = HorizontalAlignment.Center,
                                 Margin = new Thickness(10, 0, 0, 0)
                             };
 
@@ -85,6 +89,23 @@ namespace orderApp.Screens
                             }
 
                             itemPanel.Children.Add(comboBox);
+
+                            ComboBox statusComboBox = new ComboBox
+                            {
+                                Width = 100,
+                                HorizontalAlignment = HorizontalAlignment.Right,
+                                Margin = new Thickness(10, 0, 0, 0),
+                                ItemsSource = new List<string> { "Pending", "Shipped", "Ordered", "Completed" },
+                                SelectedValue = currentStatus
+                            };
+
+                            statusComboBox.SelectionChanged += (s, e) =>
+                            {
+                                string newStatus = (string)statusComboBox.SelectedValue;
+                                UpdateOrderStatus(id, newStatus);
+                            };
+
+                            itemPanel.Children.Add(statusComboBox);
                             ItemsPanel.Children.Add(itemPanel);
                         }
                     }
@@ -97,6 +118,18 @@ namespace orderApp.Screens
                 connection.Close();
             }
         }
+        private void UpdateOrderStatus(int id, string newStatus)
+        {
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand("UPDATE orders SET Status = @Status WHERE Id = @Id", connection);
+                command.Parameters.AddWithValue("@Status", newStatus);
+                command.Parameters.AddWithValue("@Id", id);
+                command.ExecuteNonQuery();
+            }
+        }
+
     }
 
     public class OrdersList

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:orderApp.Screens"
         mc:Ignorable="d"
-        Title="Orders" Height="450" Width="320">
+        Title="Orders" Height="450" Width="620">
     <Window.Background>
         <LinearGradientBrush StartPoint="1,0" EndPoint="0,1">
             <GradientStop Color="LightCoral" Offset="0" />
@@ -15,9 +15,9 @@
     </Window.Background>
     <Grid>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="25"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="270"/>
-            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="25"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="25"/>
@@ -33,7 +33,7 @@
             <Image Source="../Assets/return.png" Width="24" Height="24" Margin="4"/>
         </Button>
         <ScrollViewer Grid.Column="1" Grid.Row="2" VerticalScrollBarVisibility="Auto">
-            <StackPanel x:Name="ItemsPanel" Margin="10"/>
+            <StackPanel x:Name="ItemsPanel" Margin="10" Width="500"/>
         </ScrollViewer>
     </Grid>
 </Window>
